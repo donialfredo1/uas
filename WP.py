@@ -150,6 +150,46 @@ else:
     c4 = float(input("c4 : "))
     c5 = float(input("c5 : "))
 
+    print('Menentukan Kriteria Benefit atau Cost padah variabel C1 - C5! B for Benefit C for Cost(C/B)')
+    answers = input("C1 : ")
+    print("=" * 40)
+    if answers == "B":
+        c1 = c1
+    else:
+        c1 = -c1
+
+    print('Menentukan Kriteria Benefit atau Cost padah variabel C1 - C5! B for Benefit C for Cost(C/B)')
+    answers = input("C2 : ")
+    print("=" * 40)
+    if answers == "B":
+        c2 = c2
+    else:
+        c2 = -c2
+
+    print('Menentukan Kriteria Benefit atau Cost padah variabel C1 - C5! B for Benefit C for Cost(C/B)')
+    answers = input("C3 : ")
+    print("=" * 40)
+    if answers == "B":
+        c3 = c3
+    else:
+        c3 = -c3
+
+    print('Menentukan Kriteria Benefit atau Cost padah variabel C1 - C5! B for Benefit C for Cost(C/B)')
+    answers = input("C3 : ")
+    print("=" * 40)
+    if answers == "B":
+        c4 = c4
+    else:
+        c4 = -c4
+
+    print('Menentukan Kriteria Benefit atau Cost padah variabel C1 - C5! B for Benefit C for Cost(C/B)')
+    answers = input("C3 : ")
+    print("=" * 40)
+    if answers == "B":
+        c5 = c5
+    else:
+        c5 = -c5
+
     a = c1a1**c1
     aa = c2a1**c2
     aaa = c3a1**c3
